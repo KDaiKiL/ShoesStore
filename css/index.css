@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    margin: 0px;
+    Height: 1162px;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 19px; 
+    align-items: center;
+}
+
+.logo {
+    width: 209px;
+    height: 104px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu > li {
+    margin-right: 24px;
+    color: #777777;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+main {
+    display: flex;
+    padding-left: 123px;
+    padding-right: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form h1 {
+    width: 585px;
+    height: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #575757;
+}
+
+form div {
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0;
+}
+
+.titulos {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+    margin-bottom: 10px;
+}
+
+.diponivel {
+    margin-bottom: 0;
+}
+
+.contato {
+    margin-top: 0;
+}
+
+.curriculo {
+    margin: 22px 0;
+}
+
+.opcoes {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+form div label {
+    color: #777777;
+}
+
+section {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #808080;
+}
+
+#nome {
+    width: 538px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+#nome:hover {
+    background-color: #f1f1f1;
+    border: 2px solid #9B9B9B;
+}
+
+#nome:focus {
+    background-color: #f1f1f1;
+    border: none;
+}
+
+#nome:active {
+    background-color: #e2e2e2;
+}
+
+
+#email {
+    width: 538px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+#email:hover {
+    background-color: #f1f1f1;
+    border: 2px solid #9B9B9B;
+}
+
+#email:focus {
+    background-color: #f1f1f1;
+    border: none;
+}
+
+#email:active {
+    background-color: #e2e2e2;
+}
+
+
+#tel {
+    width: 538px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+#tel:hover {
+    background-color: #f1f1f1;
+    border: 2px solid #9B9B9B;
+}
+
+#tel:focus {
+    background-color: #f1f1f1;
+    border: none;
+}
+
+#tel:active {
+    background-color: #e2e2e2;
+}
+
+
+#departamentos {
+    width: 538px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    color: rgb(95, 95, 95);
+}
+
+#departamentos:hover {
+    background-color: #e6e6e6;
+    color: rgb(77, 77, 77);
+}
+
+#departamentos:active {
+    background-color: #d1d1d1;
+}
+
+#meioPeriodo {
+    margin-left: 17px;
+}
+
+#Freelancer {
+    margin-left: 17px;
+}
+
+#ligacao {
+    margin-left: 58px;
+}
+
+#whats {
+    margin-left: 58px;
+}
+
+#mensagem {
+    width: 536.64px;
+    height: 78px;
+    background-color: #f5f5f5;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+#mensagem:hover {
+    background-color: #e9e9e9;
+    border: 2px solid #8d8d8d;
+}
+
+#mensagem:focus {
+    background-color: #f0f0f0;
+    border: none;
+}
+
+#mensagem:active {
+    background-color: #e4e4e4;
+}
+
+
+button {
+    width: 537px;
+    height: 33px;
+    background-color: #C2185B;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+}
+
+button:hover {
+    background-color: #99154a;
+}
+
+button:active {
+    background-color: #e21f6d;
+}
